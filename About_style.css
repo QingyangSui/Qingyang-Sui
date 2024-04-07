@@ -1,0 +1,10 @@
+table{
+    border:6px solid black;
+    font-family:"Oswald", sans-serif;
+    font-size: medium;
+    letter-spacing: 1px;
+}
+.a{list-style-type: lower-roman;}
+.b{list-style-type:lower-alpha;}
+.c{list-style-type: square;}
+.d{list-style-type: "$";}

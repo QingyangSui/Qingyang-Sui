@@ -1,9 +1,14 @@
 h1{
-    color:maroon;
+    color:rgb(70, 110, 210);
 }
 h3{
     color:rgb(125, 179, 230)
 }
+
 p{
     color:rgb(196, 210, 232)
+}
+
+a:link{
+    color:rgb(123, 243, 139)
 }
