@@ -8,3 +8,8 @@ table{
 .b{list-style-type:lower-alpha;}
 .c{list-style-type: square;}
 .d{list-style-type: "$";}
+
+li::first-letter{
+    font-size: larger;
+    font-size: bolder;
+}

@@ -9,6 +9,27 @@ p{
     color:rgb(196, 210, 232)
 }
 
+a#js{
+    text-decoration: none;
+}
 a#js:link{
     color:rgb(123, 243, 139)
+}
+
+a#js:visited{
+    color:rgb(89, 40, 139)
+}
+
+a#js:hover{
+    color:rgb(230, 54, 230)
+}
+
+a#cc{
+    text-decoration: none;
+}
+a#ht{
+    text-decoration: none;
+}
+a#kcc{
+    text-decoration: none;
 }
