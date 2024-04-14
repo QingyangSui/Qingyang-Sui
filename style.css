@@ -39,3 +39,8 @@ a#lc{
 a#c{
     text-decoration: none;
 }
+
+.col-sm{
+    background-color: rgb(218, 233, 247);
+    padding: 10px;
+}
