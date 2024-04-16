@@ -39,6 +39,9 @@ a#lc{
 a#c{
     text-decoration: none;
 }
+a#cpg{
+    text-decoration: none;
+}
 
 .col-sm{
     background-color: rgb(218, 233, 247);
