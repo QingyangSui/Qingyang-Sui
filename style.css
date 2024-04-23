@@ -47,3 +47,8 @@ a#cpg{
     background-color: rgb(218, 233, 247);
     padding: 10px;
 }
+
+#playbutton{
+    border: 0;
+    background-color: transparent;
+}
