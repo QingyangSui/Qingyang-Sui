@@ -3,16 +3,15 @@ document.addEventListener('DOMContentLoaded', function () {
     const myPieChart = new Chart(ctx, {
         type: 'pie',
         data: {
-            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+            labels: ['Samoyed', 'Border Collie', 'Alaskan Malamute', 'Bernese Mountain', 'Golden Retriever'],
             datasets: [{
-                data: [12, 19, 3, 5, 2, 3],
+                data: [12, 19, 3, 5, 2],
                 backgroundColor: [
                     'rgb(255, 99, 132)',
                     'rgb(54, 162, 235)',
                     'rgb(255, 206, 86)',
                     'rgb(75, 192, 192)',
-                    'rgb(153, 102, 255)',
-                    'rgb(255, 159, 64)'
+                    'rgb(153, 102, 255)'
                 ],
                 hoverOffset: 4
             }]
@@ -25,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 },
                 title: {
                     display: true,
-                    text: 'Custom Chart Title'
+                    text: 'Puppy Love Pie Chart'
                 }
             }
         }
