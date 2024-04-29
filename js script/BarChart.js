@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
             labels: ['Samoyed', 'Border Collie', 'Alaskan Malamute', 'Bernese Mountain', 'Golden Retriever'],
             datasets: [{
                 label: 'Number of Votes',
-                data: [12, 19, 3, 5, 2],
+                data: [15, 17, 4, 9, 16],
                 backgroundColor: [
                     'rgba(255, 99, 132, 0.5)',
                     'rgba(54, 162, 235, 0.5)',
