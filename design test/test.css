@@ -1,3 +1,8 @@
+.bg-text a {
+  color: white; /* Set the color to white */
+  text-decoration: none; /* Optionally remove underline */
+}
+
 body, html {
     height: 100%;
     margin: 0;
@@ -19,9 +24,9 @@ body, html {
   }
   
   /* Images used */
-  .img1 { background-image: url("jpg/bg-image1.jpg"); }
-  .img2 { background-image: url("jpg/bg-image2.jpg"); }
-  .img3 { background-image: url("jpg/bg-image3.jpg"); }
+  .img1 { background-image: url("/jpg/bg-image1.jpg"); }
+  .img2 { background-image: url("/jpg/bg-image2.jpg"); }
+  .img3 { background-image: url("/jpg/bg-image3.jpg"); }
 
   
   /* Position text in the middle of the page/image */
