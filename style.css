@@ -104,3 +104,27 @@ a#mjsfun{
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.footer {
+    background-color: #b06c6c;
+    width: 100%;
+    position:absolute;
+  }
+  
+  .container-content {
+    min-height: calc(1vh - 1px);
+  }
+
+       /* Style for the grid container */
+       .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        grid-gap: 20px; 
+    }
+
+    /* Style for grid items */
+    .grid-item {
+        background-color: #838383;
+        padding: 100px;
+        text-align: center;
+    }
