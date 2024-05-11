@@ -1,5 +1,5 @@
 h1{
-    color:rgb(70, 110, 210);
+    color:#800000;
 }
 h3{
     color:rgb(125, 179, 230)
@@ -77,6 +77,15 @@ a#mjsfun{
     cursor: pointer;
 }
 
+#cb_button{
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
 /* Dropdown content (hidden by default) */
 .dropdown-content {
     display: none;
@@ -86,6 +95,7 @@ a#mjsfun{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
+
 
 /* Links inside the dropdown */
 .dropdown-content a {
@@ -106,13 +116,13 @@ a#mjsfun{
 }
 
 .footer {
-    background-color: #b06c6c;
+    background-color: #800000;
     width: 100%;
     position:absolute;
   }
   
   .container-content {
-    min-height: calc(1vh - 1px);
+    min-height: calc(100vh - 150px);
   }
 
        /* Style for the grid container */
@@ -128,3 +138,11 @@ a#mjsfun{
         padding: 100px;
         text-align: center;
     }
+    body {
+        color: #800000;
+      }
+      
+      .header {
+        background-color: #800000;
+        color: #800000;
+      }
