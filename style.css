@@ -1,13 +1,14 @@
-h1{
+footer{
+    background-color: #800000;
+    width: 100%;
+    position:absolute;
+    margin-bottom: auto;
+  }
+  h1{
     color:#800000;
 }
-h3{
-    color:rgb(125, 179, 230)
-}
 
-p{
-    color:rgb(196, 210, 232)
-}
+
 
 a#js{
     text-decoration: none;
@@ -59,7 +60,11 @@ a#mjsfun{
     background-color: transparent;
 }
 
-
+.container-fluid{
+    background-color: #d9d9d9;
+    height: 80px;
+    font-size: large;
+}
 
 /* Dropdown container */
 .dropdown {
@@ -115,13 +120,9 @@ a#mjsfun{
     display: block;
 }
 
-.footer {
-    background-color: #800000;
-    width: 100%;
-    position:absolute;
-  }
+
   
-  .container-content {
+  .container-footer {
     min-height: calc(100vh - 150px);
   }
 
@@ -146,3 +147,6 @@ a#mjsfun{
         background-color: #800000;
         color: #800000;
       }
+    nav a {
+        color: #d5caca; 
+    }
