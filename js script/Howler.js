@@ -1,6 +1,6 @@
 // Create a new Howl instance
 var sound = new Howl({
-    src: ['bgm audio.mp3'],volume: 0.2 // Replace 'path/to/your/audio/file.mp3' with the path to your audio file
+  src: ['bgm audio.mp3'],volume: 0.2 
   });
   
   // Event listener for the button click
