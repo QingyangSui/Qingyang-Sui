@@ -18,13 +18,13 @@ function displayData(xml) {
         const label = items[i].getElementsByTagName('label')[0].textContent;
         const properties = items[i].getElementsByTagName('property');
 
-        // Create list item
+        // list item
         const listItem = document.createElement('li');
         listItem.classList.add('list-group-item');
         listItem.textContent = label;
         itemList.appendChild(listItem);
 
-        // Create table row
+        // table row
         const row = document.createElement('tr');
         const labelCell = document.createElement('td');
         labelCell.textContent = label;

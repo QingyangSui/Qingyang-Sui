@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 // Add properties to table row
                 properties.forEach((property, index) => {
-                    if (index < 3) { // Only taking first three properties for this example
+                    if (index < 3) { // three properties
                         const propertyCell = document.createElement('td');
                         propertyCell.textContent = property.textContent;
                         tableRow.appendChild(propertyCell);
